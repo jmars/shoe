@@ -4,7 +4,9 @@
   "description": "",
   "version": "0.0.1",
   "keywords": [],
-  "dependencies": {},
+  "dependencies": {
+    "jmars/stream":"*"
+  },
   "development": {},
   "license": "MIT",
   "scripts": [
