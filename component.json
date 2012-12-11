@@ -5,7 +5,8 @@
   "version": "0.0.1",
   "keywords": [],
   "dependencies": {
-    "jmars/stream":"*"
+    "jmars/stream":"*",
+    "jmars/sockjs-client":"*"
   },
   "development": {},
   "license": "MIT",
