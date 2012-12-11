@@ -19,7 +19,12 @@ module.exports = function (uri, cb) {
     var ready = false;
     var buffer = [];
     
-    var sock = new sockjs(uri);
+    if (typeof SERVER !== 'undefined'){
+        var sock = new WebSocket(uri);
+    }
+    else {
+        var sock = new sockjs(uri);
+    }
     stream.sock = sock;
     
     stream.write = function (msg) {
